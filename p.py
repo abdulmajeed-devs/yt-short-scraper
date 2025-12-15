@@ -7,7 +7,7 @@ from time import sleep
 # ============================
 # 🔑 PUT YOUR API KEY HERE
 # ============================
-API_KEY = "AIzaSyAnUKy3IOzur3WM83N35mM37cD1AE470yc"
+API_KEY = ""
 
 INPUT_FILE = "s.txt"
 OUTPUT_FILE = "short.csv"
@@ -118,3 +118,4 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as csvfile:
     writer.writerows(all_rows)
 
 print(f"✅ Done! {len(all_rows)} Shorts saved to {OUTPUT_FILE}")
+
